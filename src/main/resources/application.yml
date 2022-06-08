@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /v1/
+accenture:
+  title: "Accenture"
+  version: 1
+  swagger:
+    enable: true
+    swagger-ui.path: swagger-ui/index.html
+    version: "v1.0"
+    title: "Accenture"
+    description: "Acenture"
+    license: "Hector  Ramirez"
+    license-url: "infrahector@hotmail.com"  
+    contact:
+      name: "Hector Ivan Ramirez Cardona"
+      url: "infrahector@hotmail.com"
+      email: "infrahector@hotmail.com"
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/acennture
+    username: postgres
+    password: admin
+  jpa:
+    show-sql: true  
