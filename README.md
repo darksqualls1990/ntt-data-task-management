@@ -2,7 +2,7 @@
 
 ## Database
 
-> Ejecutar el archivo database.sql para crear la base de datos accenture, la secuencia y su tabla.
+> Ejecutar el archivo database.sql en postgresql para crear la base de datos  accenture, la secuencia y su tabla.
 
 ## Swagger
 
